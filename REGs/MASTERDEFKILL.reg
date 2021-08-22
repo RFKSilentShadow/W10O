@@ -1,0 +1,129 @@
+Windows Registry Editor Version 5.00
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableSmartScreen"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Attachments]
+"ScanWithAntiVirus"=dword:00000001
+"SaveZoneInformation"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableRoutinelyTakingAction"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Associations]
+"LowRiskFileTypes"=".exe;.vbs;.bat;.msi;.ini;.inf;.com;.lnk;.scr;.cs;.jar;.jad;.java;.php;.html;.lib;.obj;.txt;.dat;.xls;.xlsx;.doc;.docx;.pdf;.pls;.m3u;.psd;.sln;.zip;.rar;.arj;.dbf;.ttf;.fon;.7z;.wav;.wma;.cmd"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Attachments]
+"SaveZoneInformation"=dword:00000001
+"ScanWithAntiVirus"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoCDBurning"=dword:00000000
+"ConfirmFileDelete"=dword:00000001
+"NoNetConnectDisconnect"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Association]
+"LowRiskFileTypes"=".exe;.vbs;.bat;.msi;.ini;.inf;.com;.lnk;.scr;.cs;.jar;.jad;.java;.php;.html;.lib;.obj;.txt;.dat;.xls;.xlsx;.doc;.docx;.pdf;.pls;.m3u;.psd;.sln;.zip;.rar;.arj;.dbf;.ttf;.fon;.7z;.wav;.wma;.cmd"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000001
+"DisableRoutinelyTakingAction"=dword:00000001
+"DisableAntiVirus"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Notifications]
+"DisableEnhancedNotifications"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000001
+"DisableRoutinelyTakingAction"=dword:00000001
+"ProductStatus"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Defender\Real-Time Protection]
+"DisableAntiSpywareRealtimeProtection"=dword:00000001
+"DisableRealtimeMonitoring"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Defender\Scan]
+"AutomaticallyCleanAfterScan"=dword:00000000
+"ScheduleDay"=dword:00000008
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Defender\UX Configuration]
+"AllowNonAdminFunctionality"=dword:00000000
+"DisablePrivacyMode"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000001
+"DisableRoutinelyTakingAction"=dword:00000001
+"ProductStatus"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows Defender\Real-Time Protection]
+"DisableAntiSpywareRealtimeProtection"=dword:00000001
+"DisableRealtimeMonitoring"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows Defender\Scan]
+"AutomaticallyCleanAfterScan"=dword:00000000
+"ScheduleDay"=dword:00000008
+
+[HKEY_LOCAL_MACHINE\Software\Wow6432Node\Microsoft\Windows Defender\UX Configuration]
+"AllowNonAdminFunctionality"=dword:00000000
+"DisablePrivacyMode"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\WinDefend]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\ControlSet002\Services\WinDefend]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WinDefend]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\WdBoot]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\ControlSet002\Services\WdBoot]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WdBoot]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\WdFilter]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\ControlSet002\Services\WdFilter]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WdFilter]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\WdNisDrv]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\ControlSet002\Services\WdNisDrv]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WdNisDrv]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\ControlSet001\Services\WdNisSvc]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\ControlSet002\Services\WdNisSvc]
+"Start"=dword:00000004
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WdNisSvc]
+"Start"=dword:00000004
+
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{09A47860-11B0-4DA5-AFA5-26D86198A780}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\CLSID\{09A47860-11B0-4DA5-AFA5-26D86198A780}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\CLSID\{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{13F6A0B6-57AF-4BA7-ACAA-614BC89CA9D8}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\LSID\{13F6A0B6-57AF-4BA7-ACAA-614BC89CA9D8}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{195B4D07-3DE2-4744-BBF2-D90121AE785B}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\CLSID\{195B4D07-3DE2-4744-BBF2-D90121AE785B}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{2781761E-28E0-4109-99FE-B9D127C57AFE}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\CLSID\{2781761E-28E0-4109-99FE-B9D127C57AFE}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{361290c0-cb1b-49ae-9f3e-ba1cbe5dab35}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\CLSID\{361290c0-cb1b-49ae-9f3e-ba1cbe5dab35}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{8a696d12-576b-422e-9712-01b9dd84b446}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\CLSID\{8a696d12-576b-422e-9712-01b9dd84b446}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{94F35585-C5D7-4D95-BA71-A745AE76E2E2}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\CLSID\{94F35585-C5D7-4D95-BA71-A745AE76E2E2}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{A2D75874-6750-4931-94C1-C99D3BC9D0C7}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\CLSID\{A2D75874-6750-4931-94C1-C99D3BC9D0C7}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\TypeLib\{8C389764-F036-48F2-9AE2-88C260DCF43B}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\TypeLib\{8C389764-F036-48F2-9AE2-88C260DCF43B}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{A7C452EF-8E9F-42EB-9F2B-245613CA0DC9}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\CLSID\{A7C452EF-8E9F-42EB-9F2B-245613CA0DC9}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{DACA056E-216A-4FD1-84A6-C306A017ECEC}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\CLSID\{DACA056E-216A-4FD1-84A6-C306A017ECEC}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\CLSID\{FDA74D11-C4A6-4577-9F73-D7CA8586E10D}]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Wow6432Node\CLSID\{FDA74D11-C4A6-4577-9F73-D7CA8586E10D}]
