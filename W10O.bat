@@ -1,28 +1,75 @@
+@ECHO OFF
+
+SET /p question=Full optimazition (f) or post optimazition (p):
+IF "%question%" == "f" (
+CALL :full
+) ELSE (
+IF "%question%" == "p" (
+CALL :post
+)
+)
+
+
+@ECHO ON
+
+:startext
+
 @ECHO Your Windows 10 optimization has started!
 
-@ECHO Disabling Microsoft Windows Defender!
-START %~dp0dControl\dControl.exe /D
-Powershell.exe -Command "& {Start-Process Powershell.exe -ArgumentList '-ExecutionPolicy Bypass -File %~dp0PSs\DefOFF2.ps1' -Verb RunAs}"
-reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f
-regedit /s %~dp0REGs\MASTERDEFKILL.reg
+EXIT /B 0
 
-@ECHO Disabling Microsoft Windows UPDATE!
-regedit /S %~dp0REGs\MASTERWUDKILL.reg
+
+:full
+
+CALL :startext
+CALL :post
 
 @ECHO Configuring Microsoft Windows Energy Settings!
-powercfg /x -disk-timeout-ac 0
-powercfg /x -disk-timeout-dc 0
-powercfg /x -hibernate-timeout-ac 0
-powercfg /x -hibernate-timeout-dc 0
-powercfg /x -monitor-timeout-ac 0
-powercfg /x -monitor-timeout-dc 0
-powercfg /x -standby-timeout-ac 0
-powercfg /x -standby-timeout-dc 0
+START PWRMGMT.bat
 
 @ECHO Uninstalling Microsoft Windows 10 BloatWare!
-Powershell.exe -Command "& {Start-Process Powershell.exe -ArgumentList '-ExecutionPolicy Bypass -File %~dp0Windows10Debloater-master\Windows10Debloater.ps1' -Verb RunAs}"
+START RBW.bat
+
+@ECHO OFF
+
+SET /p question2=Do you want reboot (y/n):
+IF "%question2%" == "y" (
+START R.bat
+) ELSE (
+IF "%question2%" == "n" (
+EXIT
+)
+)
+
+EXIT /B 0
+
+
+:post
+
+CALL :startext
+
+@ECHO Your Windows 10 post-optimization has started!
+
+@ECHO Disabling Microsoft Windows Defender!
+START %~dp0DEF\DEF.bat
+
+@ECHO Disabling Microsoft Windows UPDATE!
+START %~dp0WUD\WUD.bat
 
 @ECHO Removing remaining files!
-del /S /q \%USERPROFILE%\AppData\Local\Temp\*
-del /S /q C:\Windows\Temp\*
-del /S /q C:\Windows\Prefetch\* 
+START RRF.bat
+
+@ECHO OFF
+
+SET /p question2=Do you want reboot (y/n):
+IF "%question2%" == "y" (
+START R.bat
+) ELSE (
+IF "%question2%" == "n" (
+EXIT
+)
+)
+
+EXIT /B 0
+
+
