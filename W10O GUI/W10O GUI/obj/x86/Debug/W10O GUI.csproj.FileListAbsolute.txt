@@ -1,0 +1,39 @@
+G:\Rendszer\W10O GUI\W10O GUI\bin\x86\Debug\W10O GUI.exe.config
+G:\Rendszer\W10O GUI\W10O GUI\bin\x86\Debug\W10O GUI.exe
+G:\Rendszer\W10O GUI\W10O GUI\bin\x86\Debug\W10O GUI.pdb
+G:\Rendszer\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.csproj.AssemblyReference.cache
+G:\Rendszer\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.MAIN.resources
+G:\Rendszer\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.TYPIC.resources
+G:\Rendszer\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.CUSTOM.resources
+G:\Rendszer\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.Properties.Resources.resources
+G:\Rendszer\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.csproj.GenerateResource.cache
+G:\Rendszer\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.csproj.CoreCompileInputs.cache
+G:\Rendszer\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.exe
+G:\Rendszer\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.pdb
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\bin\x86\Debug\W10O GUI.exe.config
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\bin\x86\Debug\W10O GUI.exe
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\bin\x86\Debug\W10O GUI.pdb
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.csproj.AssemblyReference.cache
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.MAIN.resources
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.TYPIC.resources
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.CUSTOM.resources
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.Properties.Resources.resources
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.csproj.GenerateResource.cache
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.csproj.CoreCompileInputs.cache
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.exe
+G:\Rendszer\!RELEASEs\1.4-\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.pdb
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\bin\x86\Debug\W10O GUI.exe.config
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\bin\x86\Debug\W10O GUI.exe
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\bin\x86\Debug\W10O GUI.pdb
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.csproj.AssemblyReference.cache
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.MAIN.resources
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.TYPIC.resources
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.CUSTOM.resources
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O_GUI.Properties.Resources.resources
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.csproj.GenerateResource.cache
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.csproj.CoreCompileInputs.cache
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.exe
+G:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.pdb
+W:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.csproj.AssemblyReference.cache
+W:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.exe
+W:\Rendszer\!RELEASEs\1.5\W10O GUI\W10O GUI\obj\x86\Debug\W10O GUI.pdb

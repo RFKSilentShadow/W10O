@@ -1,0 +1,12 @@
+G:\Rendszer\W10O GUI\W10O GUI\bin\Debug\W10O GUI.exe.config
+G:\Rendszer\W10O GUI\W10O GUI\bin\Debug\W10O GUI.exe
+G:\Rendszer\W10O GUI\W10O GUI\bin\Debug\W10O GUI.pdb
+G:\Rendszer\W10O GUI\W10O GUI\obj\Debug\W10O GUI.csproj.AssemblyReference.cache
+G:\Rendszer\W10O GUI\W10O GUI\obj\Debug\W10O_GUI.main.resources
+G:\Rendszer\W10O GUI\W10O GUI\obj\Debug\W10O_GUI.Properties.Resources.resources
+G:\Rendszer\W10O GUI\W10O GUI\obj\Debug\W10O GUI.csproj.GenerateResource.cache
+G:\Rendszer\W10O GUI\W10O GUI\obj\Debug\W10O GUI.csproj.CoreCompileInputs.cache
+G:\Rendszer\W10O GUI\W10O GUI\obj\Debug\W10O GUI.exe
+G:\Rendszer\W10O GUI\W10O GUI\obj\Debug\W10O GUI.pdb
+G:\Rendszer\W10O GUI\W10O GUI\obj\Debug\W10O_GUI.TYPIC.resources
+G:\Rendszer\W10O GUI\W10O GUI\obj\Debug\W10O_GUI.CUSTOM.resources
