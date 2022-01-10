@@ -33,6 +33,7 @@ namespace W10O_GUI
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -67,11 +68,23 @@ namespace W10O_GUI
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // back
+            // 
+            this.back.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.back.Location = new System.Drawing.Point(96, 165);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(35, 23);
+            this.back.TabIndex = 3;
+            this.back.Text = "<---";
+            this.back.UseVisualStyleBackColor = true;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // TYPIC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(225, 167);
+            this.ClientSize = new System.Drawing.Size(225, 200);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -91,5 +104,6 @@ namespace W10O_GUI
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button back;
     }
 }

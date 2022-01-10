@@ -36,6 +36,7 @@ namespace W10O_GUI
             this.PWRMGMT = new System.Windows.Forms.Button();
             this.RBW = new System.Windows.Forms.Button();
             this.RRF = new System.Windows.Forms.Button();
+            this.back = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -103,11 +104,23 @@ namespace W10O_GUI
             this.RRF.UseVisualStyleBackColor = true;
             this.RRF.Click += new System.EventHandler(this.RRF_Click);
             // 
+            // back
+            // 
+            this.back.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.back.Location = new System.Drawing.Point(121, 341);
+            this.back.Name = "back";
+            this.back.Size = new System.Drawing.Size(35, 23);
+            this.back.TabIndex = 6;
+            this.back.Text = "<---";
+            this.back.UseVisualStyleBackColor = true;
+            this.back.Click += new System.EventHandler(this.back_Click);
+            // 
             // CUSTOM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(278, 346);
+            this.ClientSize = new System.Drawing.Size(278, 382);
+            this.Controls.Add(this.back);
             this.Controls.Add(this.RRF);
             this.Controls.Add(this.RBW);
             this.Controls.Add(this.PWRMGMT);
@@ -133,5 +146,6 @@ namespace W10O_GUI
         private System.Windows.Forms.Button PWRMGMT;
         private System.Windows.Forms.Button RBW;
         private System.Windows.Forms.Button RRF;
+        private System.Windows.Forms.Button back;
     }
 }

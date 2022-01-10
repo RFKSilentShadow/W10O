@@ -145,5 +145,13 @@ namespace W10O_GUI
                 
             }
         }
+
+        private void back_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var form1 = new MAIN();
+            form1.Closed += (s, args) => this.Close();
+            form1.Show();
+        }
     }
 }

@@ -52,3 +52,6 @@ C:\Users\Ren14\Downloads\W10O GUI\W10O GUI\obj\x86\Release\W10O GUI.csproj.Gener
 C:\Users\Ren14\Downloads\W10O GUI\W10O GUI\obj\x86\Release\W10O GUI.csproj.CoreCompileInputs.cache
 C:\Users\Ren14\Downloads\W10O GUI\W10O GUI\obj\x86\Release\W10O GUI.exe
 C:\Users\Ren14\Downloads\W10O GUI\W10O GUI\obj\x86\Release\W10O GUI.pdb
+Y:\W10O\!RELEASEs\1.8\W10O GUI\W10O GUI\obj\x86\Release\W10O GUI.csproj.AssemblyReference.cache
+Y:\W10O\!RELEASEs\1.8\W10O GUI\W10O GUI\obj\x86\Release\W10O GUI.exe
+Y:\W10O\!RELEASEs\1.8\W10O GUI\W10O GUI\obj\x86\Release\W10O GUI.pdb
